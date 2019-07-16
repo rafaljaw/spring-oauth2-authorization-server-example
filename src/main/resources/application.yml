@@ -1,0 +1,27 @@
+logging:
+  level:
+    root: INFO
+
+server:
+  port: 8080
+  servlet:
+    context-path: /spring-oauth
+    session:
+      cookie:
+        secure: true
+
+spring:
+  application:
+    name: spring-rest
+
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: health, info, prometheus
+    jmx:
+      exposure:
+        exclude: '*'
