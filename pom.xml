@@ -20,7 +20,7 @@
     <java-version>1.8</java-version>
     <log4j.version>1.2.15</log4j.version>
     <maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
-    <org.hibernate.version>5.3.10.Final</org.hibernate.version>
+    <org.hibernate.version>5.4.24.Final</org.hibernate.version>
   </properties>
 
   <build>
